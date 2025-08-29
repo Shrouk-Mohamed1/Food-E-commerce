@@ -41,6 +41,7 @@
       text: `"${name}" has been added.`,
       confirmButtonText: 'Go to Products'
     }).then(() => {
-      window.location.href = './products.html';
+     const basePath = window.location.pathname.replace(/[^/]*$/, '');
+      window.location.href = `${basePath}Products.html`;
     });
-  });
+    });
