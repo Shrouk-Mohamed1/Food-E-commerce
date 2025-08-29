@@ -41,6 +41,6 @@
       text: `"${name}" has been added.`,
       confirmButtonText: 'Go to Products'
     }).then(() => {
-      window.location.href = 'products.html';
+      window.location.href = './products.html';
     });
   });
